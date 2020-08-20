@@ -136,17 +136,17 @@ Para os demais protocolos siga a configurção realizada no print screen abaixo.
 
 ## 5.5 I2C
 
+A fazer
 
-
-### 7. TODO
+### 6. TODO
 
 - [x] Testar subida do firmware para STM32F4XX
 - [x] Criar imagem com a pinagem da placa
 - [x] Navegar pela lista do comandos
   - [x] Testar pinagem para os modos UART1 e UART2
   - [x] Testar pinagem para modo SPI e SPI2
-  - [x] Testar pinagem para modo I2C
+  - [ ] Testar pinagem para modo I2C
   
-### 8. Mais informações
+### 7. Mais informações
   
   https://github.com/hydrabus/hydrafw/wiki
