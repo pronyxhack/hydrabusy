@@ -146,6 +146,7 @@ A fazer
   - [x] Testar pinagem para os modos UART1 e UART2
   - [x] Testar pinagem para modo SPI e SPI2
   - [ ] Testar pinagem para modo I2C
+  - [ ] Translate to English. Brazil First! : )
   
 ### 7. Mais informações
   
