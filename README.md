@@ -2,7 +2,7 @@ Utilizando PCB STM32F4XX (STM32F407ZGT6) como hospedeiro do firmware https://git
 
 Atençâo: Conteúdo meramente educacional. Siga este este tutorial por conta e risco. Não há qualquer suporte.
 
-### 1. Ferrametas necessárias para seguir este tutoria
+### 1. Ferrametas necessárias para seguir este tutorial
 
 PCB STM32F4XX (STM32F407ZGT6):
 https://pt.aliexpress.com/item/4000088929750.html
@@ -43,11 +43,9 @@ Para os testes você irá precisar de um analisador lógico como este abaixo:
 
 https://pt.aliexpress.com/item/4000364877295.html
 
-- Faça o download da última release do programa PulseView de acordo com o seu Sistema Operacional:
+Faça o download da última release do programa PulseView de acordo com o seu Sistema Operacional:
 
 https://sigrok.org/wiki/Downloads
-
-Plugue o analisador lógico na MiniUSB e os canais CH1 e CH2 nos terminais PA9 e PA10 respectivamente.
 
 ## 5.1 Windows
 
@@ -106,6 +104,8 @@ Speed: 9600 bps
 Parity: none
 Stop bits: 1
 ```
+Plugue o analisador lógico na MiniUSB e os canais CH1 e CH2 nos terminais PA9 e PA10 respectivamente.
+
 Antes de digitar o próximo comando vá até o PulseView e mude o sample para "500 M samples" e 25 kHz. Com isto você terá tempo capturar os dados vindos da placa.
 
 Do lado do sample mude o protocolo para UART. Uma nova linha será apresentada no programa.
@@ -126,7 +126,7 @@ Volte para a tela do PulseView e veja a captura da palavra "Hello".
 
 ![UART2](images/uart2.png)
 
-Para os demais protocolos siga a configurção realizada no print screen abaixo. Do lado esquerdo está a configuração utilizada pelo PulseView e do lado direito a do HydraFW. Para qualquer dúvida sobre os possíveis comandos https://github.com/hydrabus/hydrafw/wiki/HydraFW-console-commands
+Para os demais protocolos siga a configuração realizada no print screen abaixo. Do lado esquerdo está a configuração utilizada pelo PulseView e do lado direito a do HydraFW. Para qualquer dúvida sobre os possíveis comandos https://github.com/hydrabus/hydrafw/wiki/HydraFW-console-commands
 
 ## 5.4 SPI
 
