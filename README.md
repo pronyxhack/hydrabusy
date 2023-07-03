@@ -138,7 +138,7 @@ Para os demais protocolos siga a configuração realizada no print screen abaixo
 
 A fazer
 
-### 6. TODO
+### 6. TO DO
 
 - [x] Testar subida do firmware para STM32F4XX
 - [x] Criar imagem com a pinagem da placa
